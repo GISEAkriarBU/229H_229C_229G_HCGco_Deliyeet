@@ -1,13 +1,21 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Detect_HIt : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.CompareTag("Box"))
+        if (collision.collider.CompareTag("Box"))
         {
-            GameManager.Instance.AddScore(50);
+
+            // Add score
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.AddScore(50);
+            }
+
+            // Destroy projectile
             Destroy(gameObject);
         }
+       
     }
 }

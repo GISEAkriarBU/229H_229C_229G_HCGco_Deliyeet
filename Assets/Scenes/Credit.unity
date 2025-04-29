@@ -622,7 +622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2442574244130408558, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -139
+      value: -62
       objectReference: {fileID: 0}
     - target: {fileID: 3205661683195468680, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
       propertyPath: m_fontSize
@@ -662,12 +662,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5523086033315417099, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -338
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 7067628860056088062, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7253064163090800754, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: af59a2454949e0e4e970e80ee8cac192, type: 3}
+    - target: {fileID: 7860081836611759692, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
+      propertyPath: m_text
+      value: "by:\r\nPhasin James Johnson \n(1660701903) No.14 S.229G  \nPositon
+        General Assistance \n\r\nThanapoon Keawin \n(1660706738) No.19 S.229H  \nPosition
+        coding / game design\n\r\nJakkaphong Boonyaritlakkhana \n(1660705573) No.20
+        S.229C  \nPosition assitance coding and the Ui design\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8381842346037633581, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8381842346037633581, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8381842346037633581, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8381842346037633581, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8381842346037633581, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3359
@@ -682,11 +709,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8381842346037633581, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 403.33002
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 8381842346037633581, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -341.51898
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8814064604985994719, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
       propertyPath: m_LocalScale.x
@@ -702,15 +729,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8814064604985994719, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 403.33002
+      value: 177
       objectReference: {fileID: 0}
     - target: {fileID: 8814064604985994719, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -334.78796
+      value: -111
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 238299179142364258, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
+    - {fileID: 6864546388922157247, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a013913a7a9376040ba7b4feaae935b6, type: 3}

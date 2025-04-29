@@ -9,7 +9,7 @@ public class Moving_box : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, targetPosition, Time.deltaTime * 2f);
+        transform.position = Vector2.MoveTowards(transform.position, targetPosition, Time.deltaTime * 5f);
 
         if (Vector2.Distance(transform.position, targetPosition) < 0.1f)
             PickNewTarget();

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 
 public class GameManager : MonoBehaviour
@@ -51,13 +52,15 @@ public class GameManager : MonoBehaviour
 
     void WinGame()
     {
-        Debug.Log("🎉 You Win!");
+        Debug.Log(" You Win!"); 
+        SceneManager.LoadScene("Credit"); // Load next scene
         // You can show a "Win" screen here
     }
 
     void LoseGame()
     {
-        Debug.Log("⏰ Time's Up! You Lose!");
+        Debug.Log(" Time's Up! You Lose!");
+        SceneManager.LoadScene("YouLost"); // Load next scene
         // You can show a "Lose" screen here
     }
 }
