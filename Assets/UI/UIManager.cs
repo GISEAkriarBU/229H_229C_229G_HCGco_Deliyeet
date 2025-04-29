@@ -66,7 +66,7 @@ public class UIManager : MonoBehaviour
     
     public void MainMenuGame()
     {
-        SceneManager.LoadScene("EntryScreen");
+        SceneManager.LoadScene("MainMenu");
     }
     
     public void SetScore(int value)
